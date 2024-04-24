@@ -10,11 +10,7 @@ export default async function middleware(req) {
 
   // Define los dominios permitidos (localhost y dominio para producción)
   // Define allowed Domains (localhost and production domain)
-  const allowedDomains = [
-    'localhost:3000',
-    'restaurantes-redo.vercel.app',
-    'restaurantes-redo-1q4a48wzi-alejandrosb8s-projects.vercel.app',
-  ];
+  const allowedDomains = ['localhost:3000', 'restaurantes-redo.vercel.app'];
 
   // Verificamos si el hostname existe en los dominios permitidos
   // Verify if hostname exist in allowed domains
